@@ -1,0 +1,33 @@
+{
+    "penyakit": [
+      {"kode": "P01", "nama": "Otitis eksterna"},
+      {"kode": "P02", "nama": "Otitis media"},
+      {"kode": "P03", "nama": "Otitis interna"},
+      {"kode": "P04", "nama": "Gendang telinga pecah"},
+      {"kode": "P05", "nama": "Kolesteatoma"},
+      {"kode": "P06", "nama": "Presbikusis"}
+    ],
+    "gejala": [
+      {"kode": "G01", "nama": "Gatal pada liang telinga"},
+      {"kode": "G02", "nama": "Sakit, terutama saat telinga disentuh atau ditarik"},
+      {"kode": "G03", "nama": "Keluar cairan bening pada telinga"},
+      {"kode": "G04", "nama": "Keluar cairan berwarna kuning atau bening dan berbau"},
+      {"kode": "G05", "nama": "Gangguan pendengaran (Pendengaran menurun)"},
+      {"kode": "G06", "nama": "Telinga terasa penuh atau tersumbat"},
+      {"kode": "G07", "nama": "Demam"},
+      {"kode": "G08", "nama": "Muncul benjolan dileher atau sekitar telinga"},
+      {"kode": "G09", "nama": "Vertigo dan pusing"},
+      {"kode": "G10", "nama": "Telinga berdenging"},
+      {"kode": "G11", "nama": "Nyeri Telinga"},
+      {"kode": "G12", "nama": "Demam disertai pilek"}
+    ],
+    "hubungan": [
+      {"penyakit": "P01", "gejala": ["G01", "G02", "G03", "G05", "G06", "G11"]},
+      {"penyakit": "P02", "gejala": ["G04", "G05", "G07", "G08", "G10"]},
+      {"penyakit": "P03", "gejala": ["G05", "G09", "G10"]},
+      {"penyakit": "P04", "gejala": ["G05", "G09", "G10", "G11"]},
+      {"penyakit": "P05", "gejala": ["G04", "G06", "G11"]},
+      {"penyakit": "P06", "gejala": ["G05", "G04"]}
+    ]
+  }
+  
